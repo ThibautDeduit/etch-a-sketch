@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#gridContainer {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.gridColumn {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.gridCell {
+	flex: 1;
+}
